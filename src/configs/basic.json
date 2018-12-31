@@ -1,0 +1,28 @@
+{
+  "name": "basic",
+  "feature": {
+    "time_stat": {},
+    "wavelet": {}
+  },
+  "model": {
+    "lgb": {
+      "param": {
+        "n_jobs": -1,
+        "boosting_type": "gbdt",
+        "objective": "binary",
+        "max_depth": 5,
+        "metric": "auc",
+        "num_leaves": 64,
+        "feature_fraction": 0.85,
+        "bagging_fraction": 0.85,
+        "bagging_freq": 1,
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "seed": 666,
+        "silent": true,
+        "boost_from_average": true,
+        "verbose": -1
+      }
+    }
+  }
+}

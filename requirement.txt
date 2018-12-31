@@ -1,0 +1,11 @@
+lightgbm
+matplotlib
+numba
+numpy
+pandas
+pyarrow
+pywt
+PyWavelets
+scikit-learn
+scipy
+statsmodels

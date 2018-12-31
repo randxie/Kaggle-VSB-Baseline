@@ -23,7 +23,7 @@ Note: I did not do the sine synchronization. The phase shift is used as a way to
 sample_submission.csv, train.parquet, metadata_train.csv and test.parquet.
 2. Make sure you use Python 3, install pytorch by following instructions in their website and do ```pip install -r requirements.txt```.
 3. To train and generate submission files, go to "src" folder and do ```python module_train_submit.py --config configs/basic.json```.
-4. Find generated feature in "caching" folder and submission file in "submission" folder.
+4. Find generated features in "caching" folder and submission file in "result" folder.
 
 ### Only generate feature
 do ```python module_extract_feature --config configs/basic.json --mode=train```
